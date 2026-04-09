@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da velha</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./index.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <h1>Jodo da velha</h1>
+  <form id="formulario">
+    <div id="space1">
+      <label id="labelPlayer1" for="player1">Insira o nome do jogador 1</label>
+      <br><br>
+      <input id="player1" type="text">
+    </div>
+    <br>
+    <div id="space2">
+      <label id="labelPlayer2" for="player2">Insira o nome do jogador 2</label>
+      <br><br>
+      <input id="player2" type="text">
+      <br>
+    </div>
+    <div>
+      <br><br>
+    <button id="start" type="submit">START</button>
+    </div>
+  </form>
+  <section id="jogadores">
+    <div id="espaco1"></div>
+
+  </section>
+  <section id="velha" class="ocultar">
+    <button class="parteJogo"></button>
+    <button class="parteJogo"></button>
+    <button class="parteJogo"></button>
+    <button class="parteJogo"></button>
+    <button class="parteJogo"></button>
+    <button class="parteJogo"></button>
+    <button class="parteJogo"></button>
+    <button class="parteJogo"></button>
+    <button class="parteJogo"></button>
+  </section>
+  <p id="resultado"></p>
+  <button id="reiniciar" class="ocultar">Reiniciar</button>
+  </main>
+</body>
+
+</html>
