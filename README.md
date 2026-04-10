@@ -1,22 +1,25 @@
 # 🎮 Jogo da Velha
 
-Esse foi meu primeiro projeto prático usando HTML, CSS e JavaScript. Fiz ele pra treinar lógica e manipulação do DOM.
+Aplicação web desenvolvida com HTML, CSS e JavaScript puro.
 
-O que o projeto faz
+## 🚀 Funcionalidades
 - Dois jogadores (X e O)
-- Alterna a vez automaticamente
-- Detecta vitória
-- Detecta empate
-- Mostra o placar
+- Alternância automática de turnos
+- Detecção de vitória
+- Detecção de empate
+- Sistema de placar
 - Botão para reiniciar a partida
 
-O que eu aprendi
-- Como mexer no DOM com JavaScript
-- Trabalhar com eventos (click, submit)
-- Lógica de jogo
-- Atualizar elementos na tela em tempo real
+## 🧠 Aprendizados
+- Manipulação do DOM
+- Eventos (click, submit)
+- Lógica de programação
+- Atualização dinâmica da interface
 
-Tecnologias
+## 💻 Tecnologias
 - HTML
 - CSS
 - JavaScript
+
+## 🔗 Acesse o projeto
+https://gabhsouza.github.io/jogo-da-velha-js/
